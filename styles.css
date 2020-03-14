@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Garden-of-Peace.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,14 +67,14 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid grey;
+  transition: all .10s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
