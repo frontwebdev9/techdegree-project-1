@@ -160,6 +160,9 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+a.facebook {
+  background-image: url(images/facebook.png);
+}
 a.social:hover {
   opacity: 1;
 }
