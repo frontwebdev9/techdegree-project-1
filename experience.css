@@ -1,0 +1,59 @@
+
+header {
+  background: url(images/garden-of-peace1.jpg);
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  transition: all 1s;
+}
+header {
+  line-height: 5;
+}
+header .my-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 10%;
+  border: 3px solid grey;
+  margin-left: 30px;
+  transition: all .10s;
+}
+header .my-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+h4 {
+  background-color: #c0c0c0;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  display: table;
+  margin: 10px auto;
+}
+h2 {
+  color: navy;
+  font: italic bold 24px Georgia, serif;
+}
+p {
+  color: blue;
+  font:  italic bold 24px Georgia, serif;
+}
+ul,li {
+  font: italic bold 20px Georgia, serif;
+  color: blue;
+}
+div.warning {
+  width: 40%;
+  color: #990033;
+  background-color: #99ffcc;
+  font: italic bold 24px Georgia, serif;
+  margin: 0;
+  text-align: center;
+  align-items:center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
