@@ -20,7 +20,7 @@ header .my-image {
 header .my-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
-h4 {
+h3 {
   background-color: #c0c0c0;
   color: black;
   padding: 10px;
@@ -30,25 +30,24 @@ h4 {
 }
 h2 {
   color: navy;
-  font: italic bold 24px Georgia, serif;
+  font: bold 24px Georgia, serif;
 }
 p {
   color: blue;
-  font:  italic bold 24px Georgia, serif;
+  font:  italic bold 16px Georgia, serif;
 }
 ul,li {
-  font: italic bold 20px Georgia, serif;
-  color: blue;
+  font: italic bold 18px Georgia, serif;
+  color: purple;
 }
 div.warning {
-  width: 40%;
+  width: 50%;
+  height: 50%;
   color: #990033;
   background-color: #99ffcc;
   font: italic bold 24px Georgia, serif;
   margin: 0;
-  text-align: center;
-  align-items:center;
-}
+  }
 body {
   margin: 0;
   padding: 0;

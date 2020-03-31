@@ -34,7 +34,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 800;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -70,23 +70,23 @@ header .profile-image {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 3px solid grey;
+  border: 10px solid #e6ccff;
   transition: all .10s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
+  background-color: #e6ccff;
+  color: green;
+  padding: 5px;
+  border-radius: 50px;
   display: table;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #e6ccff;
+  color: green;
 }
 .card {
   margin: 30px;
@@ -198,6 +198,7 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
+    color: #333300;
   }
 
   footer {
@@ -205,3 +206,18 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+aside {
+padding: 50px;
+}
+.card aside p {
+  font: red bold 16px;
+  color: #333300;
+}
+mark {
+  background-color: #66ffcc;
+}
+.card-photo {
+  border-radius: 50%;
+  margin: 10px 5px 10px;
+  padding: 10px 5px 10px;
+}
