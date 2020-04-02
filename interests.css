@@ -21,3 +21,14 @@ header .my-image:hover {
   margin: 0 auto;
   padding: 15px;
 }
+.animals {
+  border-radius: 30%;
+  border: 3px solid pink;
+}
+.interest {
+  border-radius: 20%;
+  border: 5px solid purple;
+}
+main ul li {
+  font: 22px green arial, serif;
+}

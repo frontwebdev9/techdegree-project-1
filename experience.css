@@ -28,12 +28,12 @@ h3 {
   display: table;
   margin: 10px auto;
 }
-h2 {
+h1 {
   color: navy;
-  font: bold 24px;
+  font: bold;
 }
 p {
-  color: blue;
+  color: navy;
   font:  italic bold 16px;
 }
 ul,li {
@@ -41,8 +41,6 @@ ul,li {
   color: purple;
 }
 div.warning {
-  width: 50%;
-  height: 50%;
   color: #990033;
   background-color: #99ffcc;
   font: italic bold 24px;
@@ -61,5 +59,19 @@ body {
   max-width: 1200px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin: 0 auto;
 }
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 1200px;
+    width: 1000px;
+    text-align: left;
+    background: #ffffe6;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    line-height: 1;
+  }
+  .card:hover {
+    transform: rotateZ(20deg);
+  }
