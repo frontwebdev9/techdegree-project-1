@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: justify;
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Garden-of-Peace.jpg') no-repeat top center ;
+  background: url('images/garden-of-Peace2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -160,9 +160,6 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
-a.facebook {
-  background-image: url(images/facebook.png);
-}
 a.social:hover {
   opacity: 1;
 }
@@ -172,6 +169,8 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
+
+}
 
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -191,7 +190,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-
   main {
     padding-top: 20px;
   }
@@ -208,6 +206,10 @@ a.social:hover {
   }
 aside {
 padding: 50px;
+transition: all 1s;
+}
+aside:hover {
+  transform: rotate(10deg);
 }
 .card aside p {
   color: #333300;
@@ -216,7 +218,11 @@ mark {
   background-color: #66ffcc;
 }
 .card-photo {
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 10px 5px 10px;
   padding: 10px 5px 10px;
+}
+.note {
+  color: blue;
+  padding: 50px;
 }
