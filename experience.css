@@ -21,11 +21,11 @@ header .my-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 h3 {
-  background-color: #c0c0c0;
-  color: black;
+  background-color: #f2e6ff;
+  color: #6600cc;
   padding: 10px;
   border-radius: 50px;
-  display: table;
+  display: inline;
   margin: 10px auto;
 }
 h1 {
