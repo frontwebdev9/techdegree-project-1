@@ -305,3 +305,8 @@ h4 {
 .animals {
   border-radius: 30%;
 }
+.footnote {
+border: solid blue;
+display: inline-block;
+
+}
