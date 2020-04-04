@@ -190,16 +190,15 @@ a.social:hover {
     padding: 0 30px;
   }
 
-  main {
+main {
     padding-top: 20px;
   }
 
-  main p {
+main p {
     line-height: 1.6em;
     color: #333300;
   }
-
-  footer {
+footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
@@ -226,3 +225,60 @@ mark {
   color: blue;
   padding: 50px;
 }
+.experience {
+  background: url(images/garden-of-peace1.jpg);
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  transition: all 1s;
+}
+.my-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 40%;
+  border: 3px solid grey;
+  margin-left: 30px;
+  transition: all .10s;
+}
+.my-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+h3 {
+  background-color: #f2e6ff;
+  color: #6600cc;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline;
+  margin: 10px auto;
+}
+h1 {
+  color: navy;
+  font: bold;
+}
+.categ {
+  margin: 30px;
+  color: green;
+  font-size: 20px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+  width: 1000px;
+  text-align: left;
+  background: #ccffff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  line-height: 1;
+}
+.categ:hover {
+  transform: rotate(10deg);
+}
+.categ p {
+  color: purple;
+  font-size: 18px;
+}
+div.warning {
+  color: #990033;
+  background-color: #99ffcc;
+  font: italic bold 24px;
+  margin: 0;
+  }
