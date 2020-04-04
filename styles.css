@@ -182,7 +182,7 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    min-height: 370px;
   }
 
   .nav {
@@ -230,6 +230,15 @@ mark {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
+  transition: all 1s;
+}
+.interests {
+  background: url(images/neon.jpg);
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  width: 1550px;
+  height: 10px
   transition: all 1s;
 }
 .my-image {
@@ -282,3 +291,17 @@ div.warning {
   font: italic bold 24px;
   margin: 0;
   }
+.flow  {
+  color: #b32400;
+  text-align: center;
+}
+h4 {
+  font: bold 24px/1 sans-serif;
+  color: yellow;
+}
+.interest {
+  border-radius: 30%;
+}
+.animals {
+  border-radius: 30%;
+}
